@@ -1,0 +1,16 @@
+﻿<Window x:Class="Lab.Insertar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Listado" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,50,0,0">
+            <Label Content="ID Cliente:"/>
+            <TextBox Name="txtCustomerID" Width="200"/>
+            <Label Content="Fecha:"/>
+            <DatePicker Name="dpDate" Width="200"/>
+            <Label Content="Total:"/>
+            <TextBox Name="txtTotal" Width="200"/>
+            <Button Content="Insertar" Click="btnInsertar" Width="100" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
